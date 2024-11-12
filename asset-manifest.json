@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Self-Discovery/static/css/main.569b8a45.css",
+    "main.js": "/Self-Discovery/static/js/main.8255726c.js",
+    "static/js/213.4b58c6af.chunk.js": "/Self-Discovery/static/js/213.4b58c6af.chunk.js",
+    "static/js/732.a45aa1e6.chunk.js": "/Self-Discovery/static/js/732.a45aa1e6.chunk.js",
+    "static/media/shadowbook-svgrepo-com.svg": "/Self-Discovery/static/media/shadowbook-svgrepo-com.f743dd5fb83260a36062152ab9e03ce1.svg",
+    "static/media/book-svgrepo-com.svg": "/Self-Discovery/static/media/book-svgrepo-com.be6a70978fc410825155fc9ea88693db.svg",
+    "index.html": "/Self-Discovery/index.html",
+    "main.569b8a45.css.map": "/Self-Discovery/static/css/main.569b8a45.css.map",
+    "main.8255726c.js.map": "/Self-Discovery/static/js/main.8255726c.js.map",
+    "213.4b58c6af.chunk.js.map": "/Self-Discovery/static/js/213.4b58c6af.chunk.js.map",
+    "732.a45aa1e6.chunk.js.map": "/Self-Discovery/static/js/732.a45aa1e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.569b8a45.css",
+    "static/js/main.8255726c.js"
+  ]
+}
