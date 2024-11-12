@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Self-Discovery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Explore your path to personal growth and self-understanding with the **Self-Discovery App**. This web application offers tools to help you track your mood, engage in shadow work exercises, and work on addiction recovery, all in one easy-to-use interface.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **Mood Tracker**: Keep track of your daily emotions and view your mood history over time.
+- **Shadow Work Workbook**: Reflect on repressed emotions and uncover new insights about yourself.
+- **Addiction Recovery Workbook**: Engage in guided exercises to support addiction recovery and foster positive change.
 
-### `npm start`
+## 🖼️ Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](path/to/your/screenshot.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Demo
 
-### `npm test`
+Try the app live: [Self-Discovery App on GitHub Pages](https://kiss42.github.io/Self-Discovery)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📚 Getting Started
 
-### `npm run build`
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/kiss42/Self-Discovery.git
+   cd Self-Discovery
+Install Dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm install
+Run the App:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will be available at http://localhost:3000.
 
-### `npm run eject`
+🛠️ Built With
+React - JavaScript library for building user interfaces
+Tailwind CSS - Utility-first CSS framework
+html2pdf.js - Library for generating PDFs in the browser
+React Router - Declarative routing for React applications
+📦 Project Structure
+src/components: Contains reusable components like MoodTracker, WorkbookContainer, and ShadowWorkbookContainer.
+src/data: JSON files containing data for addiction recovery and shadow work exercises.
+src/pages: Main pages of the application, including the Home and About pages.
+🗒️ Roadmap
+ Add more mood options in Mood Tracker
+ Include data analytics for mood patterns
+ Introduce a journaling feature
+🤝 Contributing
+Contributions are welcome! Please fork the repository and open a pull request with your changes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🙏 Acknowledgments
+Special thanks to all the open-source projects and resources that made this app possible!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
