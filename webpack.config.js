@@ -1,7 +1,7 @@
-const path = require('path');
-
+// webpack.config.js
 module.exports = {
-  // Add other Webpack configurations as needed
+  // Other configurations...
+
   module: {
     rules: [
       {
@@ -9,12 +9,9 @@ module.exports = {
         enforce: 'pre',
         use: ['source-map-loader'],
         exclude: [
-          /node_modules\/html2pdf\.js/, // Exclude html2pdf.js to prevent the warning
+          /node_modules\/html2pdf\.js/ // Ignore html2pdf.js for source maps
         ],
       },
     ],
-  },
-  resolve: {
-    extensions: ['.js', '.jsx'],
   },
 };
