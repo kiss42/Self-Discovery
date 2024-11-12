@@ -21,9 +21,13 @@ function ShadowWorkbookContainer() {
   }, []);
 
   const handleSaveAsPDF = () => {
+    // Get current date in YYYY-MM-DD format
+    const today = new Date();
+    const formattedDate = today.toISOString().split('T')[0]; // e.g., "2024-11-12"
+
     const options = {
       margin: 1,
-      filename: `Shadow-Workbook-Entry.pdf`,
+      filename: `Shadow-Workbook-Entry-${formattedDate}.pdf`, // Add date to filename
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: { scale: 2 },
       jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }

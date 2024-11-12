@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import WorkbookContainer from './components/WorkbookContainer';
 import ShadowWorkbookContainer from './components/ShadowWorkbookContainer';
@@ -6,7 +7,7 @@ import Chat from './components/Chat';
 
 function App() {
   return (
-    <BrowserRouter future={{ v7_relativeSplatPath: true }}>
+    <Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -15,7 +16,7 @@ function App() {
           <Route path="/chat" element={<Chat />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

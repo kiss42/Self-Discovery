@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://kiss42.github.io/Self-Discovery/"
+  "homepage": "https://kiss42.github.io/Self-Discovery"
 ,
   "scripts": {
     "predeploy": "npm run build",
