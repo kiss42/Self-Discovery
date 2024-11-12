@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "title": "Self-Reflection and Projections",
+    "pages": [
+      {
+        "title": "Criticisms and Projections",
+        "instructions": "Reflect on how you judge others and what that may reveal about yourself.",
+        "prompts": [
+          "What do I criticize most harshly in other people? How does that same trait or behavior show up in my own life, even if I hide it?",
+          "Think carefully here. People often hate in others what they don't want to admit exists in themselves. What are you projecting?"
+        ],
+        "fields": [
+          { "name": "Your Reflections", "type": "text" }
+        ]
+      },
+      {
+        "title": "Triggers and Jealousy",
+        "instructions": "Identify who triggers jealousy or resentment and examine why.",
+        "prompts": [
+          "Who in my life triggers intense feelings of jealousy, anger, or resentment? What is it about them that stirs up those emotions in me?",
+          "What does this person represent to you? A failure you haven’t faced? A desire you’re ashamed to admit? Look closely at what they’re mirroring back to you."
+        ],
+        "fields": [
+          { "name": "Triggering Person", "type": "text" },
+          { "name": "Emotional Reaction", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Exploring Shame and Insecurities",
+    "pages": [
+      {
+        "title": "Hidden Fears and Insecurities",
+        "instructions": "Reflect on experiences of shame and what they reveal about you.",
+        "prompts": [
+          "When was the last time I did something that made me feel ashamed or embarrassed? What did that reaction reveal about my hidden fears or insecurities?",
+          "Shame is a powerful teacher if you’re willing to listen. What are you so desperate to keep hidden that it spills out as embarrassment?"
+        ],
+        "fields": [
+          { "name": "Shameful Experience", "type": "text" },
+          { "name": "Revealed Insecurities", "type": "text" }
+        ]
+      },
+      {
+        "title": "Hidden Parts of Yourself",
+        "instructions": "Reflect on parts of yourself you hide and why.",
+        "prompts": [
+          "What parts of myself do I work hardest to hide from others? Why am I afraid to let those parts be seen?",
+          "If you’re constantly hiding something, that part of you probably holds power over you. So what’s there?"
+        ],
+        "fields": [
+          { "name": "Hidden Aspects", "type": "text" },
+          { "name": "Reasons for Hiding", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Control, Superiority, and Manipulation",
+    "pages": [
+      {
+        "title": "Feelings of Superiority",
+        "instructions": "Examine where you feel superior and what it might reveal about yourself.",
+        "prompts": [
+          "Who do I secretly look down on or feel superior to? What does that superiority feed in me?",
+          "If you feel better than someone, ask yourself why you need that validation. What insecurity or inadequacy is it trying to cover?"
+        ],
+        "fields": [
+          { "name": "Person You Feel Superior To", "type": "text" },
+          { "name": "Underlying Insecurity", "type": "text" }
+        ]
+      },
+      {
+        "title": "Control and Manipulation",
+        "instructions": "Reflect on where you control or manipulate situations to meet your needs.",
+        "prompts": [
+          "In what ways do I manipulate or control people or situations to get what I want? How do I justify this to myself?",
+          "Don't kid yourself with a noble reason. What's your real motive for controlling outcomes? And what are you afraid would happen if you let go?"
+        ],
+        "fields": [
+          { "name": "Control Tactics", "type": "text" },
+          { "name": "Real Motive", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Self-Limiting Beliefs and Validation",
+    "pages": [
+      {
+        "title": "Beliefs and Labels",
+        "instructions": "Reflect on limiting beliefs or labels you cling to.",
+        "prompts": [
+          "What beliefs or labels do I cling to about myself, even if they limit me or cause me pain?",
+          "Think about the things you tell yourself repeatedly, even if they hurt. Why do you hold onto them? What part of you needs that familiar pain?"
+        ],
+        "fields": [
+          { "name": "Self-Belief or Label", "type": "text" }
+        ]
+      },
+      {
+        "title": "External Validation",
+        "instructions": "Identify where you seek validation outside of yourself.",
+        "prompts": [
+          "Where do I seek validation outside of myself? How does that reliance on external approval shape my actions?",
+          "You might tell yourself you don’t care what others think, but who are you really trying to impress? And what happens if that validation disappears?"
+        ],
+        "fields": [
+          { "name": "External Sources of Validation", "type": "text" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Inadequacy, Self-Sabotage, and Masks",
+    "pages": [
+      {
+        "title": "Feelings of Inadequacy",
+        "instructions": "Examine moments that make you feel unworthy.",
+        "prompts": [
+          "What situations make me feel deeply unworthy or inadequate? How do I typically react in those moments?",
+          "Those reactions are clues to unresolved wounds. Where does that feeling come from? What past moment planted the seed of your inadequacy?"
+        ],
+        "fields": [
+          { "name": "Situation of Inadequacy", "type": "text" },
+          { "name": "Reaction", "type": "text" }
+        ]
+      },
+      {
+        "title": "Self-Sabotage and Hidden Fears",
+        "instructions": "Reflect on ways you sabotage yourself when close to success.",
+        "prompts": [
+          "How do I sabotage myself when I get close to achieving something I want? What hidden belief or fear could be driving that self-sabotage?",
+          "Sometimes people stay stuck because succeeding would threaten their identity. What would reaching your goal force you to confront or change?"
+        ],
+        "fields": [
+          { "name": "Self-Sabotaging Actions", "type": "text" },
+          { "name": "Underlying Fear or Belief", "type": "text" }
+        ]
+      }
+    ]
+  }
+]

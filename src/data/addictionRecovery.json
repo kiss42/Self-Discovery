@@ -1,0 +1,131 @@
+[
+    {
+        "id": 1,
+        "title": "Cognitive Behavioral Therapy (CBT)",
+        "exercises": [
+            {
+                "title": "Track Your Thoughts",
+                "description": "Record negative thoughts related to addiction. Answer one of the questions provided.",
+                "prompts": [
+                    "What thoughts or beliefs led to this feeling?",
+                    "What triggered these feelings or thoughts?",
+                    "What is the outcome of these thoughts?"
+                ],
+                "fields": [
+                    { "name": "Situation", "type": "text", "label": "Describe the situation." },
+                    { "name": "Thought", "type": "text", "label": "What were your thoughts?" },
+                    { "name": "Feeling", "type": "dropdown", "options": ["Angry", "Sad", "Anxious", "Happy"] }
+                ]
+            },
+            {
+                "title": "Challenging Negative Thoughts",
+                "description": "Identify a negative thought and use one of the prompts to challenge it.",
+                "prompts": [
+                    "What evidence do I have that supports or contradicts this thought?",
+                    "If a friend had this thought, what would I tell them?",
+                    "What would happen if I viewed this thought differently?"
+                ],
+                "fields": [
+                    { "name": "Negative Thought", "type": "text", "label": "What is the negative thought?" },
+                    { "name": "Challenge", "type": "text", "label": "How would you challenge it?" },
+                    { "name": "Alternative Thought", "type": "text", "label": "What alternative thought could replace it?" }
+                ]
+            },
+            {
+                "title": "Coping Strategies",
+                "description": "List coping strategies for managing difficult emotions.",
+                "prompts": [
+                    "What are three activities that help you calm down?",
+                    "What supportive person could you reach out to when stressed?",
+                    "What self-care actions can help you manage tough emotions?"
+                ],
+                "fields": [
+                    { "name": "Strategy 1", "type": "text" },
+                    { "name": "Strategy 2", "type": "text" },
+                    { "name": "Strategy 3", "type": "text" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Mindfulness Practices",
+        "exercises": [
+            {
+                "title": "Grounding Exercise",
+                "description": "Use a grounding exercise to stay present in the moment.",
+                "prompts": [
+                    "Describe your surroundings. What do you see and hear?",
+                    "List five things you can see, four things you can touch, three things you hear, two things you smell, and one thing you taste.",
+                    "Take a few deep breaths and observe your body sensations. How does your body feel?"
+                ],
+                "fields": [
+                    { "name": "See", "type": "text", "label": "Describe what you see." },
+                    { "name": "Feel", "type": "text", "label": "Describe what you feel." },
+                    { "name": "Hear", "type": "text", "label": "Describe what you hear." },
+                    { "name": "Smell", "type": "text", "label": "Describe what you smell." },
+                    { "name": "Taste", "type": "text", "label": "Describe what you taste." }
+                ]
+            },
+            {
+                "title": "Body Scan Meditation",
+                "description": "Practice a body scan to observe any tension or sensations.",
+                "prompts": [
+                    "Start from your head and move down to your toes. Where do you feel tension?",
+                    "What areas of your body feel relaxed?",
+                    "Is there a part of your body that feels discomfort? Focus on that area and try to release it."
+                ],
+                "fields": [
+                    { "name": "Noticed Tension", "type": "text", "label": "Where do you feel tension?" },
+                    { "name": "Relaxed Areas", "type": "text", "label": "What areas feel relaxed?" },
+                    { "name": "Discomfort", "type": "text", "label": "Describe any discomfort." }
+                ]
+            },
+            {
+                "title": "Breathing Exercise",
+                "description": "Practice focused breathing to calm your mind.",
+                "prompts": [
+                    "Take five deep breaths. How do you feel afterward?",
+                    "Focus on your breath for one minute. What sensations do you notice?",
+                    "Breathe slowly and count each inhale and exhale. What thoughts come up as you do this?"
+                ],
+                "fields": [
+                    { "name": "Before Exercise", "type": "text", "label": "Describe how you felt before starting." },
+                    { "name": "After Exercise", "type": "text", "label": "Describe how you feel now." },
+                    { "name": "Thoughts", "type": "text", "label": "What thoughts came up during the exercise?" }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Personal Risk Factors",
+        "exercises": [
+            {
+                "title": "Identify Risk Factors",
+                "description": "Place a check mark beside risk factors you have experienced.",
+                "fields": [
+                    { "name": "Family History of Addiction", "type": "yes_no", "label": "Do you have a family history of addiction?" },
+                    { "name": "Mental Health Issues", "type": "yes_no", "label": "Have you experienced mental health issues?" },
+                    { "name": "Early Exposure to Substances", "type": "yes_no", "label": "Were you exposed to substances at a young age?" },
+                    { "name": "Traumatic Experiences", "type": "yes_no", "label": "Have you experienced trauma in your life?" },
+                    { "name": "High-Stress Environment", "type": "yes_no", "label": "Did you grow up in a high-stress environment?" }
+                ]
+            },
+            {
+                "title": "Personal Strengths",
+                "description": "Identify your strengths that can help in recovery.",
+                "prompts": [
+                    "What personal qualities can help you stay strong in recovery?",
+                    "What is something you’ve achieved that you’re proud of?",
+                    "Who in your life supports you positively?"
+                ],
+                "fields": [
+                    { "name": "Strength 1", "type": "text" },
+                    { "name": "Strength 2", "type": "text" },
+                    { "name": "Strength 3", "type": "text" }
+                ]
+            }
+        ]
+    }
+]

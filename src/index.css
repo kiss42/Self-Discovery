@@ -1,0 +1,20 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #f0f4f8, #c2d3e1);
+    color: #333;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
